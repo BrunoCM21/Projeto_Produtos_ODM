@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/DS_ValidaPromocao2/implementação/run.dop"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="request" value="function odm.request.RequestValidaPromocao get_request_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="request" value="odm.request.RequestValidaPromocao request = new odm.request.RequestValidaPromocao();&#10;request.nomeProduto = &quot;Notebook&quot;;&#10;request.descricaoProduto = &quot;Aspire VX15&quot;;&#10;request.fornecedorProduto = &quot;Acer&quot;;&#10;return request;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="request" value="request"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="request" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="request" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DS_ValidaPromocao2"/>
+<listEntry value="/DS_ValidaPromocao2"/>
+<listEntry value="/DS_ValidaPromocao2/implementação/run.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DS_ValidaPromocao2"/>
+</launchConfiguration>

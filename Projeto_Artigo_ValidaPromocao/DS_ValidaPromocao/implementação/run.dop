@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="run" usingRuleflow="true" ruleflowName="fluxo" targetRuleProjectName="DS_ValidaPromocao">
+  <name>run</name>
+  <uuid>5cc84194-0548-4b35-9be0-342500ab16f8</uuid>
+  <referencedVariables variableName="request" variableSetName="variaveis">
+    <variableSet href="../regras/variaveis.var#a0a9b28e-f632-40f0-8159-07ded40d8549"/>
+  </referencedVariables>
+  <referencedVariables variableName="responsePromocao" variableSetName="variaveis" direction="OUT">
+    <variableSet href="../regras/variaveis.var#a0a9b28e-f632-40f0-8159-07ded40d8549"/>
+  </referencedVariables>
+  <ruleflow href="../regras/fluxo.rfl#01d4e542-b922-4b83-8d8b-778a632d5185"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="run_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../DS_ValidaPromocao#d65f5c3a-f2ad-4ade-abb4-c813a56f8067"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

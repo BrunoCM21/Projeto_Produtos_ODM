@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="runAlternativo" usingRuleflow="true" ruleflowName="fluxoAlternativo" targetRuleProjectName="DS_ValidaPromocao2">
+  <name>runAlternativo</name>
+  <uuid>73858f64-dd5f-4ee6-aae9-7ada4147a816</uuid>
+  <referencedVariables variableName="request" variableSetName="variaveis">
+    <variableSet href="../regras/variaveis.var#bef01c1d-323b-4b9a-80b4-05c661050998"/>
+  </referencedVariables>
+  <referencedVariables variableName="responsePromocao" variableSetName="variaveis" direction="OUT">
+    <variableSet href="../regras/variaveis.var#bef01c1d-323b-4b9a-80b4-05c661050998"/>
+  </referencedVariables>
+  <ruleflow href="../regras/fluxoAlternativo.rfl#08414235-a32b-4738-baa8-e13b82431992"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="runAlternativo_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../DS_ValidaPromocao2#3348430f-fd0e-42b1-985f-4ddd9a5f2b04"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

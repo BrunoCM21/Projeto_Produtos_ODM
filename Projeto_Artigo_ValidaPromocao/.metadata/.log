@@ -604,3 +604,88 @@ java.lang.NullPointerException
 	at com.ibm.rules.studio.projectmap.model.ProjectMapModel.access$1(ProjectMapModel.java:238)
 	at com.ibm.rules.studio.projectmap.model.ProjectMapModel$2.run(ProjectMapModel.java:148)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2023-04-19 23:06:19.670 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product -data E:\GitHub\Projeto_Produtos_ODM\Projeto_Artigo_ValidaPromocao -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.help.base 4 0 2023-04-19 23:06:28.367
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Fim prematuro do arquivo.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:103)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.help.base 4 0 2023-04-19 23:06:28.624
+!MESSAGE Internal error while reading topic extensions from remote server
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Fim prematuro do arquivo.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:66)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:68)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:62)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:43)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.access$1(TocAssembler.java:230)
+	at org.eclipse.help.internal.toc.TocAssembler$LinkHandler.handle(TocAssembler.java:361)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:79)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:309)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-19 23:06:29.754
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-19 23:06:29.754
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bruno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ilog.rules.studio.shared 1 1 2023-04-19 23:12:37.564
+!MESSAGE Variável de caminho de classe inicializada ILOG_BR_STUDIO_HOME com valor 'C:/Users/bruno/Downloads/eclipse-standard-luna-SR2-win32-x86_64/eclipse/studio'.

@@ -4,6 +4,10 @@
             <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
             <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
         </vocElt>
+        <vocElt id="odm.promocao.ValidaProduto/validaProdutoDescricao/GETTER#0">
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
         <vocElt id="odm.promocao.ValidaPromocao">
             <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
         </vocElt>
@@ -37,10 +41,6 @@
         <vocElt id="odm.request.RequestValidaPromocao/fornecedorProduto/GETTER#0">
             <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
             <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
-        </vocElt>
-        <vocElt id="odm.promocao.ValidaProduto/validaProdutoDescricao/GETTER#0">
-            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
-            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
         </vocElt>
     </ruleTable>
     <vocTable>

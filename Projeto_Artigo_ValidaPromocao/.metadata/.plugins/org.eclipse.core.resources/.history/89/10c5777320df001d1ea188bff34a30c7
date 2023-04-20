@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="run" usingRuleflow="true" ruleflowName="fluxo" targetRuleProjectName="DS_ValidaPromocao2">
+  <name>run</name>
+  <uuid>b8760a55-7d48-4b91-a755-95100de91780</uuid>
+  <ruleflow href="../regras/fluxo.rfl#2b555e52-e026-44d3-985f-dc96130997b7"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="run_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../DS_ValidaPromocao2#3348430f-fd0e-42b1-985f-4ddd9a5f2b04"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
