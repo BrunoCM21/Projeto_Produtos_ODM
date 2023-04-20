@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Regra1_BuscaPedidoPromocao</name>
+  <uuid>f2a8fea9-d152-4c3f-9c33-ad31b53ad921</uuid>
+</ilog.rules.studio.model.base:RulePackage>

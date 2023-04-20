@@ -1,0 +1,45 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/DS_ValidaPromocao2/XOM_ValidaPromocao"
+property uuid "f0c45a62-4cdf-47b3-91d1-0fb60919b5cd"
+package odm.promocao;
+
+
+public class ValidaProduto
+{
+    public string validaProdutoDescricao;
+    public string validaProdutoFabricante;
+    public string validaProdutoNome;
+    public ValidaProduto(string arg1, string arg2, string arg3);
+    public ValidaProduto();
+}
+
+public class ValidaPromocao
+{
+    public boolean validaPromocao;
+    public ValidaPromocao(boolean arg);
+    public ValidaPromocao();
+}
+
+package odm.request;
+
+
+public class RequestValidaPromocao
+{
+    public string descricaoProduto;
+    public string fornecedorProduto;
+    public string nomeProduto;
+    public RequestValidaPromocao(string arg1, string arg2, string arg3);
+    public RequestValidaPromocao();
+}
+
+package odm.response;
+
+
+public class ResponseValidaPromocao
+{
+    public double valorProduto;
+    public ResponseValidaPromocao(double arg);
+    public ResponseValidaPromocao();
+}
+

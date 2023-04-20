@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="odm.request.RequestValidaPromocao/descricaoProduto/GETTER#0">
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
+        <vocElt id="odm.promocao.ValidaPromocao">
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
+        <vocElt id="odm.promocao.ValidaProduto">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </vocElt>
+        <vocElt id="odm.request.RequestValidaPromocao">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </vocElt>
+        <vocElt id="odm.promocao.ValidaPromocao/validaPromocao/PREDICATE_SETTER#0">
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
+        <vocElt id="odm.request.RequestValidaPromocao/nomeProduto/GETTER#0">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
+        <vocElt id="odm.promocao.ValidaProduto/validaProdutoFabricante/GETTER#0">
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </vocElt>
+        <vocElt id="odm.promocao.ValidaProduto/validaProdutoNome/GETTER#0">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
+        <vocElt id="odm.request.RequestValidaPromocao/fornecedorProduto/GETTER#0">
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </vocElt>
+        <vocElt id="odm.promocao.ValidaProduto/validaProdutoDescricao/GETTER#0">
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7">
+            <vocElt id="odm.promocao.ValidaProduto"/>
+            <vocElt id="odm.request.RequestValidaPromocao"/>
+            <vocElt id="odm.request.RequestValidaPromocao/nomeProduto/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaProduto/validaProdutoNome/GETTER#0"/>
+        </rule>
+        <rule id="8a45ba37-82f1-482f-8d62-44666381ce21">
+            <vocElt id="odm.request.RequestValidaPromocao/descricaoProduto/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaProduto/validaProdutoDescricao/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaProduto"/>
+            <vocElt id="odm.request.RequestValidaPromocao"/>
+        </rule>
+        <rule id="d41f0469-74f3-475f-a368-1b31587ef351">
+            <vocElt id="odm.request.RequestValidaPromocao/descricaoProduto/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaProduto/validaProdutoDescricao/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaPromocao"/>
+            <vocElt id="odm.promocao.ValidaProduto"/>
+            <vocElt id="odm.request.RequestValidaPromocao"/>
+            <vocElt id="odm.promocao.ValidaPromocao/validaPromocao/PREDICATE_SETTER#0"/>
+            <vocElt id="odm.request.RequestValidaPromocao/nomeProduto/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaProduto/validaProdutoFabricante/GETTER#0"/>
+            <vocElt id="odm.promocao.ValidaProduto/validaProdutoNome/GETTER#0"/>
+            <vocElt id="odm.request.RequestValidaPromocao/fornecedorProduto/GETTER#0"/>
+        </rule>
+        <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d">
+            <vocElt id="odm.promocao.ValidaProduto"/>
+            <vocElt id="odm.request.RequestValidaPromocao"/>
+            <vocElt id="odm.promocao.ValidaProduto/validaProdutoFabricante/GETTER#0"/>
+            <vocElt id="odm.request.RequestValidaPromocao/fornecedorProduto/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="request">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </param>
+        <param id="validaProduto">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </param>
+        <param id="validaPromocao">
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7">
+            <param id="request"/>
+            <param id="validaProduto"/>
+        </rule>
+        <rule id="8a45ba37-82f1-482f-8d62-44666381ce21">
+            <param id="request"/>
+            <param id="validaProduto"/>
+        </rule>
+        <rule id="d41f0469-74f3-475f-a368-1b31587ef351">
+            <param id="request"/>
+            <param id="validaProduto"/>
+            <param id="validaPromocao"/>
+        </rule>
+        <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d">
+            <param id="request"/>
+            <param id="validaProduto"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="bef01c1d-323b-4b9a-80b4-05c661050998">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DS_ValidaPromocao2/bom/modelo_pt_BR.voc" id="3a42130e-3821-4a4b-a35b-4e2bbe354d2b">
+            <rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+            <rule id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+            <rule id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+            <rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DS_ValidaPromocao2/regras/Regra2_ValidaNomeProduto.brl" id="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+        <resource file="/DS_ValidaPromocao2/regras/Regra4_ValidaFornecedorProduto.brl" id="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        <resource file="/DS_ValidaPromocao2/regras/variaveis.var" id="bef01c1d-323b-4b9a-80b4-05c661050998"/>
+        <resource file="/DS_ValidaPromocao2/regras/Regra3_ValidaDescricaoProduto.brl" id="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+        <resource file="/DS_ValidaPromocao2/regras/Regra1_BuscaPedidoPromocao.brl" id="d41f0469-74f3-475f-a368-1b31587ef351"/>
+    </resourceTable>
+</impactTables>

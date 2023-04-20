@@ -1,0 +1,33 @@
+# Vocabulary Properties
+uuid = 3a42130e-3821-4a4b-a35b-4e2bbe354d2b
+
+# Term: descricao produto
+@descricao\ produto#gender = FEMALE
+
+# odm.promocao.ValidaProduto
+odm.promocao.ValidaProduto#concept.label = valida produto
+odm.promocao.ValidaProduto.validaProdutoDescricao#phrase.action = atribuir o valida produto descricao {this, PARTITIVE_ARTICLE} a {valida produto descricao}
+odm.promocao.ValidaProduto.validaProdutoDescricao#phrase.navigation = {valida produto descricao} {this, PARTITIVE_ARTICLE}
+odm.promocao.ValidaProduto.validaProdutoFabricante#phrase.action = atribuir o valida produto fabricante {this, PARTITIVE_ARTICLE} a {valida produto fabricante}
+odm.promocao.ValidaProduto.validaProdutoFabricante#phrase.navigation = {valida produto fabricante} {this, PARTITIVE_ARTICLE}
+odm.promocao.ValidaProduto.validaProdutoNome#phrase.action = atribuir o valida produto nome {this, PARTITIVE_ARTICLE} a {valida produto nome}
+odm.promocao.ValidaProduto.validaProdutoNome#phrase.navigation = {valida produto nome} {this, PARTITIVE_ARTICLE}
+
+# odm.promocao.ValidaPromocao
+odm.promocao.ValidaPromocao#concept.label = valida promocao
+odm.promocao.ValidaPromocao.validaPromocao#phrase.action = colocar à {valida promocao} que {this} é valida promocao
+odm.promocao.ValidaPromocao.validaPromocao#phrase.navigation = {this} é valida promocao
+
+# odm.request.RequestValidaPromocao
+odm.request.RequestValidaPromocao#concept.label = request valida promocao
+odm.request.RequestValidaPromocao.descricaoProduto#phrase.action = atribuir a descricao do produto {this, PARTITIVE_ARTICLE} a {descricao produto}
+odm.request.RequestValidaPromocao.descricaoProduto#phrase.navigation = {descricao produto} {this, PARTITIVE_ARTICLE}
+odm.request.RequestValidaPromocao.fornecedorProduto#phrase.action = atribuir o fornecedor do produto {this, PARTITIVE_ARTICLE} a {fornecedor produto}
+odm.request.RequestValidaPromocao.fornecedorProduto#phrase.navigation = {fornecedor produto} {this, PARTITIVE_ARTICLE}
+odm.request.RequestValidaPromocao.nomeProduto#phrase.action = atribuir o nome do produto {this, PARTITIVE_ARTICLE} a {nome produto}
+odm.request.RequestValidaPromocao.nomeProduto#phrase.navigation = {nome produto} {this, PARTITIVE_ARTICLE}
+
+# odm.response.ResponseValidaPromocao
+odm.response.ResponseValidaPromocao#concept.label = response valida promocao
+odm.response.ResponseValidaPromocao.valorProduto#phrase.action = atribuir o valor produto {this, PARTITIVE_ARTICLE} a {valor produto}
+odm.response.ResponseValidaPromocao.valorProduto#phrase.navigation = {valor produto} {this, PARTITIVE_ARTICLE}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>a0a9b28e-f632-40f0-8159-07ded40d8549</uuid>
+  <variables name="request" type="odm.request.RequestValidaPromocao" initialValue="" verbalization="request"/>
+  <variables name="response" type="odm.request.RequestValidaPromocao" initialValue="" verbalization="response"/>
+</ilog.rules.studio.model.base:VariableSet>

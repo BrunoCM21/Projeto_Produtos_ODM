@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="1c6b4bfe-99e3-4906-9e16-bed586d39872" path="regras/Regra1_BuscaPedidoPromocao.brl">
+        <UserFlow id="01d4e542-b922-4b83-8d8b-778a632d5185"/>
+    </Rule>
+    <Rule id="b2026b66-10c6-4fdf-a7ff-afe74b023c92" path="regras/Regra2_DefineValorProduto.brl">
+        <UserFlow id="01d4e542-b922-4b83-8d8b-778a632d5185"/>
+    </Rule>
+    <Rule id="c0c555a7-af8e-4db3-80d2-3e078f006a21" path="regras/TabelaPromo.dta">
+        <UserFlow id="01d4e542-b922-4b83-8d8b-778a632d5185"/>
+    </Rule>
+</ImpactedElements>

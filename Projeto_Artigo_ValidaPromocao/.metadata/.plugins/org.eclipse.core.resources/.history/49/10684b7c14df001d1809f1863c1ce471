@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>fluxo</name>
+  <uuid>01d4e542-b922-4b83-8d8b-778a632d5185</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_5"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Regra1" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="1c6b4bfe-99e3-4906-9e16-bed586d39872"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Regra2" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="b2026b66-10c6-4fdf-a7ff-afe74b023c92"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Tabela de Promoções" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="c0c555a7-af8e-4db3-80d2-3e078f006a21"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_3"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_1" Task="Regra1"/>
+      <TaskNode Identifier="node_2" Task="Regra2"/>
+      <TaskNode Identifier="node_3" Task="task_3"/>
+      <TaskNode Identifier="node_4" Task="Tabela de Promoções"/>
+      <TaskNode Identifier="node_5" Task="task_5"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_1" Source="node_1" Target="node_2"/>
+      <Transition Identifier="transition_2" Source="node_1" Target="node_3">
+        <Conditions Language="bal"><![CDATA[não é verdadeiro que validaPromocao é valida promocao ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_3" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_4" Source="node_4" Target="node_1"/>
+      <Transition Identifier="transition_5" Source="node_5" Target="node_4"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">40.0</Data>
+      <Data Name="node_4#width">102.69141</Data>
+      <Data Name="node_1#height">40.0</Data>
+      <Data Name="node_3#height">20.99999</Data>
+      <Data Name="node_4#height">68.103516</Data>
+      <Data Name="node_5#name">node_0</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="transition_1#label">é verdadeiro que ValidaPromocao é valida promocao</Data>
+      <Data Name="node_5#height">21.0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_3#y">379.60352</Data>
+      <Data Name="node_4#x">51.345703</Data>
+      <Data Name="node_4#y">105.05176</Data>
+      <Data Name="node_5#x">51.345703</Data>
+      <Data Name="node_5#y">10.5</Data>
+      <Data Name="node_5#width">21.0</Data>
+      <Data Name="node_1#x">51.345703</Data>
+      <Data Name="node_1#y">209.10352</Data>
+      <Data Name="node_2#x">89.3457</Data>
+      <Data Name="node_2#y">299.10352</Data>
+      <Data Name="node_3#x">51.345703</Data>
+      <Data Name="node_1#name">node_1</Data>
+      <Data Name="node_3#width">21.000002</Data>
+      <Data Name="transition_2#documentation">não é verdadeiro que ValidaPromocao é valida promocao</Data>
+      <Data Name="node_4#name">node_1</Data>
+      <Data Name="transition_2#label">não é verdadeiro que ValidaPromocao é valida promocao</Data>
+      <Data Name="node_1#width">102.0</Data>
+      <Data Name="node_3#name">node_2</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

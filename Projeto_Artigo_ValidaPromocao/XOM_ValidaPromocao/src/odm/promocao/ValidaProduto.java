@@ -1,0 +1,44 @@
+package odm.promocao;
+
+public class ValidaProduto {
+
+	private String validaProdutoNome;
+	private String validaProdutoDescricao;
+	private String validaProdutoFabricante;
+
+	public ValidaProduto() {
+		super();
+	}
+
+	public ValidaProduto(String validaProdutoNome,
+			String validaProdutoDescricao, String validaProdutoFabricante) {
+		super();
+		this.validaProdutoNome = validaProdutoNome;
+		this.validaProdutoDescricao = validaProdutoDescricao;
+		this.validaProdutoFabricante = validaProdutoFabricante;
+	}
+
+	public String getValidaProdutoNome() {
+		return validaProdutoNome;
+	}
+
+	public void setValidaProdutoNome(String validaProdutoNome) {
+		this.validaProdutoNome = validaProdutoNome;
+	}
+
+	public String getValidaProdutoDescricao() {
+		return validaProdutoDescricao;
+	}
+
+	public void setValidaProdutoDescricao(String validaProdutoDescricao) {
+		this.validaProdutoDescricao = validaProdutoDescricao;
+	}
+
+	public String getValidaProdutoFabricante() {
+		return validaProdutoFabricante;
+	}
+
+	public void setValidaProdutoFabricante(String validaProdutoFabricante) {
+		this.validaProdutoFabricante = validaProdutoFabricante;
+	}
+}

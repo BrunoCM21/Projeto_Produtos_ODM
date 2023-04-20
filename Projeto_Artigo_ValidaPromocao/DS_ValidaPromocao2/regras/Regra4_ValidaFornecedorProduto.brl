@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra4_ValidaFornecedorProduto</name>
+  <uuid>1f5723b5-6cb6-4575-9e48-99b93d555e6d</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	o fornecedor produto de request é o valida produto fabricante de validaProduto 
+então 
+	Apresentar "O fornecedor/fabricante do Produto é " + o fornecedor produto de request;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

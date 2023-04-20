@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>fluxoAlternativo</name>
+  <uuid>08414235-a32b-4738-baa8-e13b82431992</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Regra1" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="d41f0469-74f3-475f-a368-1b31587ef351"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Tabela de Produtos" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="39fc8e13-43e3-4fe2-90bf-27e4fc4dbaa5"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Regra2" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="0b2d8611-5936-4ea8-811e-71db99a91ac7"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Regra4" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="1f5723b5-6cb6-4575-9e48-99b93d555e6d"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Regra3" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="8a45ba37-82f1-482f-8d62-44666381ce21"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_4"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_2" Task="Regra1"/>
+      <TaskNode Identifier="node_3" Task="Tabela de Produtos"/>
+      <TaskNode Identifier="node_4" Task="task_4"/>
+      <ForkNode Identifier="node_5"/>
+      <TaskNode Identifier="node_6" Task="Regra2"/>
+      <TaskNode Identifier="node_7" Task="Regra4"/>
+      <TaskNode Identifier="node_8" Task="Regra3"/>
+      <JoinNode Identifier="node_9"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_3" Target="node_2"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_5"/>
+      <Transition Identifier="transition_3" Source="node_2" Target="node_4">
+        <Conditions Language="bal"><![CDATA[não é verdadeiro que validaProduto é validaProduto ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_4" Source="node_0" Target="node_3"/>
+      <Transition Identifier="transition_5" Source="node_5" Target="node_8"/>
+      <Transition Identifier="transition_6" Source="node_8" Target="node_9"/>
+      <Transition Identifier="transition_7" Source="node_9" Target="node_4"/>
+      <Transition Identifier="transition_8" Source="node_5" Target="node_6"/>
+      <Transition Identifier="transition_9" Source="node_6" Target="node_9"/>
+      <Transition Identifier="transition_10" Source="node_5" Target="node_7"/>
+      <Transition Identifier="transition_11" Source="node_7" Target="node_9"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">40.0</Data>
+      <Data Name="node_4#width">21.000002</Data>
+      <Data Name="node_3#height">68.103516</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#height">20.99999</Data>
+      <Data Name="node_7#y">358.10352</Data>
+      <Data Name="node_8#x">385.0</Data>
+      <Data Name="node_8#y">359.103515625</Data>
+      <Data Name="node_9#x">228.0</Data>
+      <Data Name="node_5#name">node_7</Data>
+      <Data Name="node_9#width">100.0</Data>
+      <Data Name="node_9#y">434.10352</Data>
+      <Data Name="transition_3#label">não é verdadeiro que validaProduto é validaProduto</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="transition_1#label">é verdadeiro que validaProduto é validaProduto</Data>
+      <Data Name="node_5#height">10.0</Data>
+      <Data Name="node_6#height">40.0</Data>
+      <Data Name="node_7#height">40.0</Data>
+      <Data Name="node_7#width">102.0</Data>
+      <Data Name="node_8#height">40.0</Data>
+      <Data Name="node_9#height">10.0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_3#y">105.05176</Data>
+      <Data Name="node_4#x">111.5</Data>
+      <Data Name="node_4#y">499.60352</Data>
+      <Data Name="node_5#x">228.0</Data>
+      <Data Name="node_5#y">284.10352</Data>
+      <Data Name="node_6#x">224.0</Data>
+      <Data Name="node_5#width">100.0</Data>
+      <Data Name="node_6#y">359.10352</Data>
+      <Data Name="node_7#x">71.0</Data>
+      <Data Name="node_0#x">111.5</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_8#name">node_1</Data>
+      <Data Name="node_2#x">111.5</Data>
+      <Data Name="node_2#y">209.10352</Data>
+      <Data Name="node_3#x">111.5</Data>
+      <Data Name="node_3#width">102.0</Data>
+      <Data Name="node_4#name">node_2</Data>
+      <Data Name="node_8#width">102.0</Data>
+      <Data Name="node_7#name">node_1</Data>
+      <Data Name="node_6#name">node_1</Data>
+      <Data Name="node_9#name">node_7</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_6#width">102.0</Data>
+      <Data Name="node_3#name">node_1</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

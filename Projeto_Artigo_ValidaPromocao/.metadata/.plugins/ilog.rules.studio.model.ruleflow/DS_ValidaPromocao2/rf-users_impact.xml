@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="0b2d8611-5936-4ea8-811e-71db99a91ac7" path="regras/Regra2_ValidaNomeProduto.brl">
+        <UserFlow id="2968ed43-5dfc-40c3-8d72-e459adb16b90"/>
+        <UserFlow id="08414235-a32b-4738-baa8-e13b82431992"/>
+        <UserFlow id="2b555e52-e026-44d3-985f-dc96130997b7"/>
+    </Rule>
+    <Rule id="8a45ba37-82f1-482f-8d62-44666381ce21" path="regras/Regra3_ValidaDescricaoProduto.brl">
+        <UserFlow id="2968ed43-5dfc-40c3-8d72-e459adb16b90"/>
+        <UserFlow id="08414235-a32b-4738-baa8-e13b82431992"/>
+        <UserFlow id="2b555e52-e026-44d3-985f-dc96130997b7"/>
+    </Rule>
+    <Rule id="d41f0469-74f3-475f-a368-1b31587ef351" path="regras/Regra1_BuscaPedidoPromocao.brl">
+        <UserFlow id="2968ed43-5dfc-40c3-8d72-e459adb16b90"/>
+        <UserFlow id="08414235-a32b-4738-baa8-e13b82431992"/>
+        <UserFlow id="2b555e52-e026-44d3-985f-dc96130997b7"/>
+    </Rule>
+    <Rule id="39fc8e13-43e3-4fe2-90bf-27e4fc4dbaa5" path="regras/TabelaPromo.dta">
+        <UserFlow id="2968ed43-5dfc-40c3-8d72-e459adb16b90"/>
+        <UserFlow id="08414235-a32b-4738-baa8-e13b82431992"/>
+        <UserFlow id="2b555e52-e026-44d3-985f-dc96130997b7"/>
+    </Rule>
+    <Rule id="1f5723b5-6cb6-4575-9e48-99b93d555e6d" path="regras/Regra4_ValidaFornecedorProduto.brl">
+        <UserFlow id="2968ed43-5dfc-40c3-8d72-e459adb16b90"/>
+        <UserFlow id="08414235-a32b-4738-baa8-e13b82431992"/>
+        <UserFlow id="2b555e52-e026-44d3-985f-dc96130997b7"/>
+    </Rule>
+</ImpactedElements>

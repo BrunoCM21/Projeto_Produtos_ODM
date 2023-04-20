@@ -1,0 +1,23 @@
+package odm.promocao;
+
+public class ResponseValidaPromocao {
+
+	private double valorProduto;
+
+	public ResponseValidaPromocao() {
+		super();
+	}
+
+	public ResponseValidaPromocao(double valorProduto) {
+		super();
+		this.valorProduto = valorProduto;
+	}
+
+	public double getValorProduto() {
+		return valorProduto;
+	}
+
+	public void setValorProduto(double valorProduto) {
+		this.valorProduto = valorProduto;
+	}
+}

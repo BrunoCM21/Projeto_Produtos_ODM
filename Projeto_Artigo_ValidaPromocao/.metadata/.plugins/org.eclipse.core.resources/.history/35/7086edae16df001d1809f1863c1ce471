@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>7df85926-4bd8-44de-bf01-3878dc4f431a</uuid>
+  <variables name="request" type="odm.request.RequestValidaPromocao" initialValue="" verbalization="request"/>
+  <variables name="responsePromocao" type="odm.response.ResponseValidaPromocao" initialValue="new odm.response.ResponseValidaPromocao()" verbalization="responsePromocao"/>
+  <variables name="validaProduto" type="odm.promocao.ValidaProduto" initialValue="new odm.promocao.ValidaProduto()" verbalization="validaProduto"/>
+  <variables name="validaPromocao" type="odm.promocao.ValidaPromocao" initialValue="new odm.promocao.ValidaPromocao()" verbalization="validaPromocao"/>
+</ilog.rules.studio.model.base:VariableSet>

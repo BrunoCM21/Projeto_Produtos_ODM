@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra3_ValidaDescricaoProduto</name>
+  <uuid>8a45ba37-82f1-482f-8d62-44666381ce21</uuid>
+  <locale>pt_BR</locale>
+</ilog.rules.studio.model.brl:ActionRule>

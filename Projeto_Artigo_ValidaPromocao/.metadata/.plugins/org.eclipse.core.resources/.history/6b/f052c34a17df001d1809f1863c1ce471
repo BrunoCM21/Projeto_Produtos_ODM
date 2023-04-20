@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>fluxo</name>
+  <uuid>19568e81-df11-4638-984a-a32c9f11729c</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_5"/>
+      <StopTask Identifier="task_3"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_3" Task="task_3"/>
+      <TaskNode Identifier="node_5" Task="task_5"/>
+    </NodeList>
+    <TransitionList/>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_3#height">20.99999</Data>
+      <Data Name="node_5#name">node_0</Data>
+      <Data Name="node_3#y">379.60352</Data>
+      <Data Name="node_5#x">51.345703</Data>
+      <Data Name="node_3#width">21.000002</Data>
+      <Data Name="node_5#y">10.5</Data>
+      <Data Name="node_5#height">21.0</Data>
+      <Data Name="node_5#width">21.0</Data>
+      <Data Name="node_3#name">node_2</Data>
+      <Data Name="node_3#x">51.345703</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>
